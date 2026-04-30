@@ -6,7 +6,7 @@ Welcome to the Dentstock take home technical assessment.
 
 Your task is to build a **full stack price comparison tool** that:
 
-1. Scrapes some product data from [Screwfix](https://www.screwfix.com/) and [Toolstation](https://www.toolstation.com/).
+1. Gets product data from the provided CSV files.
 2. Identifies and compares identical products across both catalogues.
 3. Identifies and compares similar products across the catalogues.
 4. **Stretch goal:** Display the results in a simple front end UI.
@@ -21,14 +21,13 @@ When you submit this task, please provide a ZIP file along with a README explain
 
 This round is meant to reflect how you approach building software in a production environment.
 
-You are encouraged to include any elements you believe are important in a real-world system (e.g. project structure, developer tooling, etc.), but we do not expect a fully complete implementation given the time constraint.
+You are encouraged to include any elements you believe are important in a real-world system (e.g. project structure, developer tooling, scraping methodology etc.), but we do not expect a fully complete implementation given the time constraint.
 
 If you choose not to implement something, please describe what you would like to have included in your README.
 
 ## Constraints
 
-* Aim to spend no more than **a few hours** on this task over the course of the week you have.
-* You may limit scraping to just a few categories or ~**50–100 products per site** to save time.
+* Aim to spend no more than **2 hours** on this task over the course of the week you have.
 * Focus on **clarity and correctness** over completeness of the task.
 
 ## Expectations
@@ -39,7 +38,7 @@ We are particularly interested in:
 * Your approach to matching identical vs similar products
 * Your ability to explain trade-offs and assumptions
 * How you think about **code quality, testing, and maintainability**
-* How you would evolve this into a production system
+* How you would evolve this into a production system with more complex data - including methods of obtaining this data
 
 ## Matching Requirements
 
