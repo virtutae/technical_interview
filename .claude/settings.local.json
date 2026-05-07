@@ -1,0 +1,9 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(.venv/Scripts/python -m pytest tests/ -v)",
+      "Bash(npx tsc:*)",
+      "Bash(.venv/Scripts/python -c \"from app.matcher import load_catalogues, run_comparison; df_a, df_b = load_catalogues\\(\\); print\\(run_comparison\\(df_a, df_b\\)['summary']\\)\")"
+    ]
+  }
+}
